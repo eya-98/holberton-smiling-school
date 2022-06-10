@@ -1,0 +1,496 @@
+html {
+    font-family: "Source Sans Pro";
+}
+header {
+    background-image: url('images/pic_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.toggle {
+    display: none;
+}
+nav {
+    display: flex;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.logo {
+    justify-content: flex-start;    
+}
+.menu {
+    display: none;
+}
+.logo li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    list-style: none;
+}
+.logo li img{
+    width: 11.2;
+}
+.link {
+    padding: 1em;
+    list-style: none;
+
+}
+.link a{
+text-decoration: none;
+color: white;
+}
+.context .link {
+    padding-top: 0;
+}
+ h1 {
+    font-weight: bold;
+    font-size: 8em;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 7rem;
+}
+.link h2 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.context {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding: 0;
+}
+.centerbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-left: 2.5em; */
+}
+button {   
+    margin-top: 4%;
+     color : white;
+    background-color: #C271FF;
+    padding: 0.5rem; 
+    height : 3.5rem;
+    font-size: 0.9em;
+    width: 12rem;
+   -webkit-border-radius:2rem;
+   border: none;
+   -border-radius:10px;
+}
+ul {
+    margin-bottom: none;
+}
+.pros {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 12rem;
+    /* padding-left: 3rem; */
+    margin-bottom: 2%;
+}
+.pros h3 {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+.learn {
+    margin-right: 0.4em;
+    font-weight: bold;
+    color: #C271FF;
+}
+.prosprofiles {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    /* height: 5%; */
+    /* width: 80%; */
+}
+.prosprofiles li {
+ list-style: none;
+ padding: 0;
+}
+.prosprofiles li img { 
+    width: 50%;
+    border: none;
+    padding-right: 25%;
+    padding-left: 25%;
+    border-radius: 100%;
+}
+.profile {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.profile h4, h5 {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 1%;
+
+}
+.profile h5 {
+    font-size: 0.7em;
+    font-style: italic;
+}
+.quote {
+background-color: #C271FF;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.quote img {
+    width: 15%;
+    border: none;
+    border-radius: 100%;
+}
+.arrow {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.quoteDetail {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.quoteDetail li {
+    list-style: none;
+}
+.quoteDetail li h4{
+    line-height: 1.6;
+    color: white;
+    font-weight: 100;
+}
+.quoteDetail li h5{
+    color: white;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.quoteDetail li h6{
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    white-space: nowrap;
+    font-style: italic;
+    margin: 1%;
+
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* To be back after learning more about css animation */
+.position {
+    display : none;
+}
+.Tuto {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+.Tuto h2 {
+    padding-right: 0.3%;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.popular {
+    color: #C271FF;
+}
+.Caroussel {
+    display: flex;
+}
+.vidsCaroussel {
+    display: flex;
+    align-items: center;
+}
+.vidCaroussel {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin-left: 5%;
+}
+.vidCaroussel img {
+    width: 100%;
+}
+.vidCaroussel h4 {
+    margin: 0;
+    max-width: 90%;
+    font-weight: 100;
+    color: #787878;
+    line-height: 1.6rem;
+}
+.vidprofile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vidprofile h5 {
+    color: #C271FF;
+    margin-left: 5%;
+}
+.vidprofile img {
+    width: 15%;
+    border: none;
+    border-radius: 100%;
+}
+.sameline {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.stars {
+    display: flex;
+    justify-content: space-between;
+    max-width: 20%;
+}
+ .stars img {
+    position: relative;
+    width: 35%;
+}
+ .play {
+    position: absolute;
+    width: 35%;
+    top: 20%;
+    left: 30%;
+} 
+/* section smileys */
+.free {
+    color: #C271FF;
+    margin-right: 0.5%;
+    margin-bottom: 5%;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 100;
+}
+.membership {
+    color: #F0F0F0;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 100;
+}
+.smileys {
+    display: flex;
+    justify-content: space-around;
+}
+.smiley {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+.smiley img {
+    width: 20%
+}
+.smiley h4 {
+    color: white;
+    font-size: 1.2em;
+}
+.smiley h5 {
+    margin-top: 2%;
+    max-width: 80%;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.6em;
+}
+/* Section latest same as popular vids */
+.latest {
+    padding-bottom: 5%;
+}
+/* footer */
+footer {
+    background-color: #071629;
+    padding: 3%;
+}
+.footer {
+display: flex;
+justify-content: space-between;
+}
+.footerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.footerlogo li {
+    padding-left: 5%;
+    list-style: none;
+}
+.social {
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.sociallogo {
+    list-style: none;
+}
+footer h5 {
+    text-align: center;
+    margin-top: 3%;
+    position: relative;
+    font-size: 1rem;
+    color: #787878;
+}
+@media screen and (min-width: 1200px) {
+    .quote img {
+        width: 13%;
+        border: none;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width: 735px) {
+
+    h1 {
+        font-size: 6em;
+        white-space: nowrap;
+    }
+    .prosprofiles {
+        flex-wrap: wrap;
+    }
+    .profile {
+        flex: 50%
+    }
+    nav {
+      padding: 2em;
+    }
+    .quote img {
+        width: 17%;
+        border: none;
+        border-radius: 100%;
+    }
+    .vidsCaroussel {
+        flex-wrap: wrap;
+    }
+    .vidCaroussel {
+        flex: 50%;
+    }
+    .smileys {
+        flex-wrap: wrap;
+    }
+    .smiley {
+        flex: 50%;
+        margin-top: 5%;
+    }
+    .smiley img {
+        width: 15%
+    }
+}
+@media screen and (max-width: 600px) {
+    .prosprofiles {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .profile {
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 4.5em;
+        white-space: nowrap;
+    }
+    .menu {
+        display: block;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 0.4em;
+        padding-left: 0.4em;
+    }
+    .links {
+        visibility: hidden;
+        flex-direction: column;
+    }
+    .quote img {
+        width: 30%;
+        border: none;
+        border-radius: 100%;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .vidsCaroussel {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .vidCaroussel {
+        max-width: 100%;
+    }
+    .smileys {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .smiley {
+        max-width: 100%;
+        margin-top: 7%;
+    }
+    .smiley img {
+        width: 12%
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerlogo {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+     .social {
+         padding-left: 2%;
+         margin-bottom: 3%;
+        width: 25%;
+     }
+    .toggle {
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+    .open .toggle .close{
+        display: block;
+    }
+    .open .toggle .menus{
+        display: none;
+    }
+     .toggle .close{
+        display: none;
+    }
+    .toggle .menus{
+        display: block;
+    }
+    .open .links {
+        visibility: visible;
+        transform: translate(-35vw, 18vh);
+    }
+}
